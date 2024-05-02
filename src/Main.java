@@ -2,9 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int stoimBil = 13676;// стоимость билета
-        int bonZaMil = 20;// бонусы за одну милю
-        int kolMlZaBil = stoimBil / bonZaMil;
-        System.out.println(kolMlZaBil);
+        int ticketPrice = 13676;// стоимость билета
+        int bonusMile = 20;// бонусы за одну милю
+        int numbMilTicket = ticketPrice / bonusMile * 1;
+        System.out.println(numbMilTicket);
     }
 }
